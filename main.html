@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Тестовое задание НастАртВЕБ</title>
+
+  <link rel="stylesheet" href="css/slick.css"> 
+  <link rel="stylesheet" href="css/slick-theme.css"> 
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="css/main.css"> 
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <header>
+
+    <div class="header-top">
+      <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+              <a class="header-top_phone" href="tel:+78123098510">+7 (812) 309-85-10</a>
+              <a class="header-top_phone" href="tel:+78123098510">+7 (812) 309-85-10</a>
+            </div>
+            <div class="col-sm-12 col-md-6 col-md-6 col-lg-6">
+              <!--<form class="header-top_form">
+                <input class="header-top_input" type="text">
+                <button class="header-top_search">Поиск</button>
+              </form> -->
+              <!--Пробный блок-->
+              <div class="header-top_search">
+                <form class="header-top_form">
+                  <input class="header-top_input" type="text" placeholder="Искать здесь...">
+                  <button class="header-top_btn" type="submit">Поиск</button>
+                </form>
+              </div>
+              <!--Пробный блок-->
+            </div>
+        </div>
+      </div><!--container-->
+    </div><!--header_top-->
+
+    <div class="header-button">
+      <div class="container">
+        <div class="row header-button_container">
+          <div class="header-button-logo col-sm-12 col-md-12 col-lg-2 col-xl-2">
+            <img src="/img/logo.svg">
+            <div class="burger">
+              <div class="burger-brick"></div>
+              <div class="burger-brick middle"></div>
+              <div class="burger-brick"></div>
+            </div><!--burger-->
+          </div>
+          <nav class="col-sm-12 col-md-12 col-lg-10 col-xl-10">
+            <ul class="menu-categories">
+              <li class="menu-categorie_item"><a href="#products">продукты</a></li>
+              <li class="menu-categorie_item"><a href="#events">мероприятия</a></li>
+              <li class="menu-categorie_item"><a href="#news">новости</a></li>
+              <li class="menu-categorie_item"><a href="#feedback">обратная связь</a></li>
+              <li class="menu-categorie_item"><a href="#contacts">контакты</a></li>
+            </ul>
+          </nav>
+        </div><!--row-->
+      </div><!--container-->
+    </div><!--header_button-->
+  </header>
+
+  <ul class="menu_mobile">
+    <li><a href="#products">продукты</a></li>
+    <li><a href="#events">мероприятия</a></li>
+    <li><a href="#news">новости</a></li>
+    <li><a href="#feedback">обратная связь</a></li>
+    <li><a href="#contacts">контакты</a></li>
+  </ul>
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-6 main-slider__text">
+          <h1 class="h1-title">1С - Отчетность</h1>
+          <p class="h1-description">отчетность из 1С одним кликом</p>
+          <button class="h1-btn btn" type="button" data-toggle="modal" data-target="#exampleModal">Оставить заявку</button>
+        </div>
+        <div class="col-md-6 col-lg-6">
+          <div class="main-slider_img">
+            <img src="img/background-slider.png">
+          </div>
+        </div>
+      </div><!--row-->
+    </div><!--container-->
+  </section>
+
+  <section class="products-bg">
+    <div class="container">
+      <p id="products"></p>
+      <h2 class="products-title products-title_padding">Продукты </h2>
+
+      <div class="slider-products">
+
+        <div class="slider-product__item">
+          <div class="product-item__wrapper activ-slider">
+            <a href="#" class="slider-product">
+              <img class="product-item__img" src="img/slider-product-img.svg">
+              <div class="product-item__text">
+                <h3 class="product-item__title">1С:Розница 8.</h3>
+                <span class="product-item__price">264 00.00 Р</span>
+              </div>
+              <span class="product-item__name">аптека</span>
+            </a>
+            <button class="btn slider-product__btn">купить</button>
+          </div>
+        </div><!--slider-product__item-->
+
+        <div class="slider-product__item">
+          <div class="product-item__wrapper">
+            <a href="#" class="slider-product">
+              <img class="product-item__img" src="img/slider-product-img.svg">
+              <div class="product-item__text">
+                <h3 class="product-item__title">1С:Розница 8.</h3>
+                <span class="product-item__price">60 000 Р</span>
+              </div>
+              <span class="product-item__trade">торговля</span>
+            </a>
+            <button class="btn slider-product__btn">купить</button>
+          </div>
+        </div><!--slider-product__item-->
+
+        <div class="slider-product__item">
+          <div class="product-item__wrapper">
+            <a href="#" class="slider-product">
+              <img class="product-item__img" src="img/slider-product-img.svg">
+              <div class="product-item__text">
+                <h3 class="product-item__title">1С:Розница 8.</h3>
+                <span class="product-item__price">60 000 Р</span>
+              </div>
+              <span class="product-item__trade">торговля</span>
+            </a>
+            <button class="btn slider-product__btn">купить</button>
+          </div>
+        </div><!--slider-product__item-->
+
+        <div class="slider-product__item">
+          <div class="product-item__wrapper">
+            <a href="#" class="slider-product">
+              <img class="product-item__img" src="img/slider-product-img.svg">
+              <div class="product-item__text">
+                <h3 class="product-item__title">1С:Розница 8.</h3>
+                <span class="product-item__price">60 000 Р</span>
+              </div>
+              <span class="product-item__trade">торговля</span>
+            </a>
+            <button class="btn slider-product__btn">купить</button>
+          </div>
+        </div><!--slider-product__item-->
+
+        <div class="slider-product__item">
+          <div class="product-item__wrapper">
+            <a href="#" class="slider-product">
+              <img class="product-item__img" src="img/slider-product-img.svg">
+              <div class="product-item__text">
+                <h3 class="product-item__title">1С:Розница 8.</h3>
+                <span class="product-item__price">60 000 Р</span>
+              </div>
+              <span class="product-item__trade">торговля</span>
+            </a>
+            <button class="btn slider-product__btn">купить</button>
+          </div>
+        </div><!--slider-product__item-->
+
+      </div><!--slider-products-->
+
+    </div><!--container-->
+  </section>
+
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-4">
+          <p id="events"></p>
+          <h2 class="products-title events-title_padding">мероприятия</h2>
+          <p class="products-description">План мероприятий на 1 квартал 2022 г. : Лекции/ Курсы/ Семинары</p>
+        </div>
+
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-8">
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6 events-item-padding">
+              <div class="events-item events-item__padding events-item__white">
+                <div class="events-item__wrapper">
+                  <div class="events-item__text">
+                    <span class="events-item__date">17.02.22-21.02.22</span>
+                    <span class="events-item__price">5000 руб</span>
+                  </div>
+                  <p class="events-item__path">Курс</p>
+                  <h4 class="events-item__title events-item__title-padding">Курс обучения по 1С:Бухгалтерия 8, ред.3.0</h4>
+                  <div class="events-item__link">
+                    <a class="events-item__place" href="">Место</a>
+                    <a class="events-item__class" href="">Учебный класс</a>
+                  </div>
+                </div>
+              </div><!--events_item-->
+
+              <div class="events-item events-item__white">
+                <div class="events-item__wrapper">
+                  <div class="events-item__text">
+                    <span class="events-item__date">17.02.22-21.02.22</span>
+                    <span class="events-item__price">5000 руб</span>
+                  </div>
+                  <p class="events-item__path">Курс</p>
+                  <h4 class="events-item__title events-item__title-padding">Курс обучения по 1С:Бухгалтерия 8, ред.3.0</h4>
+                  <div class="events-item__link">
+                    <a class="events-item__place" href="">Место</a>
+                    <a class="events-item__class" href="">Учебный класс</a>
+                  </div>
+                </div>
+              </div><!--events_item-->
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-md-6 col-lg-6">
+              <div class="events-item events-item__padding  events-item__blue">
+                <div class="events-item__wrapper">
+                  <div class="events-item__text">
+                    <span class="events-item__date">17.02.22-21.02.22</span>
+                    <span class="events-item__price">5000 руб</span>
+                  </div>
+                  <p class="events-item__path">Курс</p>
+                  <h4 class="events-item__title events-item__title-padding">Курс обучения по 1С:Бухгалтерия 8, ред.3.0</h4>
+                  <button class="events-item__btn btn">записаться</button>
+                </div>
+              </div><!--events_item-->
+
+              <div class="events-item events-item__white">
+                <div class="events-item__wrapper">
+                  <div class="events-item__text">
+                    <span class="events-item__date">17.02.22-21.02.22</span>
+                    <span class="events-item__price">5000 руб</span>
+                  </div>
+                  <p class="events-item__path">Курс</p>
+                  <h4 class="events-item__title events-item__title-padding">Курс обучения по 1С:Бухгалтерия 8, ред.3.0</h4>
+                  <div class="events-item__link">
+                    <a class="events-item__place" href="">Место</a>
+                    <a class="events-item__class" href="">Учебный класс</a>
+                  </div>
+                </div>
+              </div><!--events_item-->
+            </div>
+          </div><!--row-->
+        </div>
+          
+      </div><!--row-->
+    </div><!--container-->
+  </section>
+
+
+  <section class="news-section">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-12 col-lg-3">
+          <p id="news"></p>
+          <h2 class="news-title">новости</h2>
+          <p class="news-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non, in amet dignissim ultrices in neque, pretium augue.</p>
+        </div>
+
+        <div class="col-md-12 col-lg-9">
+          <div class="news-slider">
+
+            <div class="news-slider__item">
+              <a href="#" class="news-slider__wrapper">
+                <img class="news-slider__img" src="img/news/news01.png">
+                <h4 class="news-item__title">Новость 1</h4>
+                <p class="news-item__description">Тут у нас одна очень интересная новость </p>
+              </a>
+            </div>
+
+            <div class="news-slider__item">
+              <a href="#" class="news-slider__wrapper">
+                <img class="news-slider__img" src="img/news/news02.png">
+                <h4 class="news-item__title">Новость 2</h4>
+                <p class="news-item__description">Тут у нас одна очень интересная новость </p>
+              </a>
+            </div>
+
+            <div class="news-slider__item">
+              <a href="#" class="news-slider__wrapper">
+                <img class="news-slider__img" src="img/news/news03.png">
+                <h4 class="news-item__title">Новость 3</h4>
+                <p class="news-item__description">Тут у нас одна очень интересная новость </p>
+              </a>
+            </div>
+
+            <div class="news-slider__item">
+              <a href="#" class="news-slider__wrapper">
+                <img class="news-slider__img" src="img/news/news01.png">
+                <h4 class="news-item__title">Новость 1</h4>
+                <p class="news-item__description">Тут у нас одна очень интересная новость </p>
+              </a>
+            </div>
+
+          </div><!--news-slider-->
+        </div>
+
+      </div><!--row-->
+    </div><!--container-->
+  </section>
+
+
+  <p id="feedback"></p>
+  <section class="advice-bg">
+    <div class="container">
+      <div class="row advice-block">
+        <div class="col-md-12 col-lg-12 col-xl-7 advice-text">
+          <h3 class="advice-title">Получить <br><strong>консультацию онлайн <br><span class="advice-main">бесплатно</span></strong></h3>
+          <img class="advice-img" src="img/advice/macbook_menu.png">
+        </div>
+
+        <form  class="col-md-12 col-lg-12 col-xl-5">
+          <div class="mb-3_advice">
+            <input class="form-control_advice" type="email"  id="exampleFormControlInput1" placeholder="Имя">
+          </div>
+          <div class="mb-3">
+            <input class="form-control_advice" type="email"  id="exampleFormControlInput1" placeholder="E-mail">
+          </div>
+          <div class="form-check form-check_advice">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+            <label class="form-check-label form-check-label_advice" for="flexCheckChecked">
+              Даю свое согласие на обработку персональных данных в соответствии с <a href="#">политикой конфиденциальности</a>
+            </label>
+          </div>
+          <button class="advice-btn btn" href="">Отправить</button class="btn">
+        </form>
+
+      </div><!--row-->
+    </div><!--container-->
+  </section>
+
+  <!--modal-button-->
+  <div class="feedback-form-bg">
+    <button type="button" class="feedback-btn" data-toggle="modal" data-target="#exampleModal">Заполните форму заявки выше, чтобы получить бесплатную консультацию</button>
+  </div><!--feedback-form-bg-->
+  <!--modal-button-->
+
+  
+  <p id="contacts"></p>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-7 footer-menu-block">
+          <ul class="footer-menu">
+            <li><a href="#products">Продукты</a></li>
+            <li><a href="#events">мероприятия</a></li>
+            <li><a href="#news">новости</a></li>
+            <li><a href="#feedback">обратная связь</a></li>
+          </ul>
+          <a class="footer-description" href="#">Digital-агентство полного цикла</a>
+        </div>
+        
+        <div class="col-md-12 col-lg-2 footer__phone">
+          <a class="footer__links footer__links-phone-main" href="tel:+78123098510">+7 (812) 309-85-10</a>
+          <a class="footer__links footer__links-phone" href="tel:+78123098510">+7 (812) 309-85-10</a>
+          <a class="footer__links footer__links-phone" href="tel:+78123098510">+7 (812) 309-85-10</a>
+        </div>
+        <div class="col-md-12 col-lg-3">
+          <a class="footer__links footer__links-mail" href="mailto:info@nastart-web.ru">info@nastart-web.ru</a>
+          <a class="footer__links footer__links-address" href="">Санкт-Петербург, проспект Науки, д. 12, к.5, оф. 214</a>
+          <span class="footer__links footer__links-time" href="">9:30 - 18:00 (по рабочим дням)</span>
+        </div>
+      </div><!--row-->
+    </div><!--container-->
+  </footer>
+
+
+  <!--modal window-->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="feedback-close" data-dismiss="modal" aria-label="Close">
+          <img class="" src="img/close.svg" aria-hidden="true">
+        </button>
+      </div>
+      <div class="modal-body">
+
+        <div class="mb-3">
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Имя">
+        </div>
+
+        <div class="mb-3">
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Телефон">
+        </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-feedback">Отправить</button>
+      </div>
+    </div>
+  </div>
+</div>
+ <!--modal window-->
+  
+</body>
+    <script defer src="js/jquery-3.6.0.min.js"></script>
+    <script defer src="js/jquery-3.5.1.slim.min.js"></script>
+    
+
+    <script defer src="js/main.js"></script>
+
+    <script defer src="js/slick.min.js"></script>
+
+    <script defer src="js/bootstrap.bundle.min.js"></script>
+    <script defer src="js/bootstrap.min.js"></script>
+    <script defer src="js/bootstrap.js"></script>
+    <script defer src="js/popper.min.js"></script>
+
+    
+
+</html>
